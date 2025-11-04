@@ -9,7 +9,7 @@ describe('CoffeeMachine functionality', () => {
 
     const response = coffeeMachine.serve(coffee, 2, false, 10);
 
-    expect(response).toEqual('Serving Coffee (small)');
+    expect(response).toEqual('Serving Coffee (small:)');
   });
 
   it('refuses to serve when insufficient money is inserted', () => {
